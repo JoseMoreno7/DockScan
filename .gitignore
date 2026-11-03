@@ -1,0 +1,31 @@
+# Gradle / Android
+.gradle/
+build/
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+
+# Secretos y configuracion local (NUNCA al repositorio)
+local.properties
+*.jks
+*.keystore
+.env
+.env.*
+google-services.json
+*.pem
+
+# Supabase CLI (temporales locales)
+supabase/.temp/
+supabase/.branches/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
